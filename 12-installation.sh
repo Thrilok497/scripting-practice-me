@@ -25,7 +25,7 @@ else
     echo "Installing nginx is SUCESS"
 fi 
 
-dnf install mangodb-mongosh -y
+dnf install mongodb-mongosh -y
 
 if [ $? -ne 0 ]; then
     echo "ERROR: : Installing mongodb-mongosh is failure"
