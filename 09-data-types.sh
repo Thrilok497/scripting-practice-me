@@ -8,4 +8,4 @@ SUM=$(($NUMBER1+$NUMBER2+$Name))
 echo "SUM is: $SUM"
 
 LEADERS=("Modi" "Putin" "Trudo")
-echo "All leaders: $LEADERS [@]"
+echo "All leaders: ${LEADERS@}"
