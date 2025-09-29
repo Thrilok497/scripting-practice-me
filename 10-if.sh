@@ -1,9 +1,11 @@
 #!/bin/bash
 
-NUMBER=$1
+echo "Please enter the number:"
+read NUMBER
 
-if [ $NUMBER -lt 10 ]; then
-    echo "Given number $NUMBER is less than 10"
+if [ $(($NUMBER % 2)) -eq 0 ]; then
+    echo "Given number $NUMBER is even
 else
-    echo "Given number $NUMBER is greater than 10"
+    echo "Given number $NUMBER is odd
 fi
+
