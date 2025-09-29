@@ -4,7 +4,7 @@ USERID=$(id -u)
 G="\e[32m"
 
 if [ $USERID -ne 0 ]; then
-    echo -e "ERROR: : "$G Please run this script with root privelege"
+    echo -e "ERROR: : $G Please run this script with root privelege"
     exit 1
 fi
 
